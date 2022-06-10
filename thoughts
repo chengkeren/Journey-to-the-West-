@@ -1,2 +1,14 @@
 ## 2022/06/09 
 ## 时间就像一根离弦的箭， 此说法无甚新意，但有切肤之痛。
+age =  list(range(1, 36))
+evnets = [2, 4, 6, 8, 10]
+plt.plot(x, y)
+ 
+# changing the edge color
+# to green
+plt.arrow(2, 4, 2, 2,
+          head_width = 0.2,
+          width = 0.05,
+          ec ='green')
+ 
+plt.show()
